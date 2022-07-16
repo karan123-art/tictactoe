@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "vite",
     "build": "npm run clear && vite build",
     "lint": "eslint src/**/*.js",
